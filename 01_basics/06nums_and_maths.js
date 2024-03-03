@@ -6,6 +6,8 @@ console.log(balance);
 console.log(balance.toString().length);
 console.log(balance.toFixed(3));
 
-const otherNumber = 1123.8966
+const otherNumber = 1123.8966  
 
 console.log(otherNumber.toPrecision(4));
+
+console.log(Math.round(4.5));
