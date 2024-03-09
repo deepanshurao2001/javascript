@@ -18,7 +18,7 @@ const regularUser ={
     }
 } 
 
-console.log(regularUser.fullName.userfullname.lastname,regularUser.fullName.userfullname.firstname);
+// console.log(regularUser.fullName.userfullname.lastname,regularUser.fullName.userfullname.firstname);
 
 const users = [
     {
@@ -35,14 +35,33 @@ const users = [
     }
 ]
 
-console.log(users[0].email);
-console.log(tinderUser);
-//we can only display only keys of objects
-console.log(Object.keys(tinderUser));
-// we  can store the keys of above object in a seprate object
-const keysOnly = Object.keys(tinderUser)
+// console.log(users[0].email);
+// console.log(tinderUser);
+// //we can only display only keys of objects
+// console.log(Object.keys(tinderUser));
+// // we  can store the keys of above object in a seprate object
+// const keysOnly = Object.keys(tinderUser)
 
-console.log(typeof keysOnly);
+// console.log(typeof keysOnly);
 
-console.log(keysOnly);
+// console.log(keysOnly);
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
+// const navbar = () => {
+
+// }
+
+// navbar(company = "hitesh")
 
