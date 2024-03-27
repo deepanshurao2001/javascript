@@ -75,6 +75,8 @@
         console.log(e.target.parentNode);
         
         //removeIt.remove()
+
+        // below code stop the spilover on all the element present in the parent tag
         if(e.target.tagName === 'IMG'){
         let removeIt = e.target.parentNode
         removeIt.parentNode.removeChild(removeIt)
